@@ -1,0 +1,137 @@
+/*##############Default##################*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    height: 100px;
+    background-color: #B2D6FF;
+    /* Medium blue */
+}
+
+.sidebar {
+    height: 300px;
+    background-color: #F09A9D;
+    /* Red */
+    width: 200px;
+    float: left;
+}
+
+.content {
+    height: 500px;
+    background-color: #F5CF8E;
+    /* Yellow */
+    width: 650px;
+    /* Add this */
+    float: left;
+
+}
+
+.footer {
+    clear: both;
+    height: 200px;
+    background-color: #D6E9FE;
+    /* Light blue */
+}
+
+.page {
+
+    width: 900px;
+    margin: 0 auto;
+
+    /* we’re telling it to recognize the height of any floated elements it contains. */
+
+}
+
+.container {
+
+    background-color: #EAEDF0;
+    overflow: hidden;
+}
+
+/*################Columns####################*/
+
+.column {
+    float: left;
+    width: 31%;
+    height: 160px;
+    background-color: #B2D6FF;
+    margin: 20px 1.15%;
+    /* Automatically resize to one-third of the browser window.*/
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #D6E9FE;
+
+
+}
+
+
+
+/*####################Content#######################*/
+
+
+.content {
+
+    padding: 20px;
+
+}
+
+
+.article-image {
+
+    height: 150px;
+    width: 150px;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+p {
+
+    margin-bottom: 20px;
+
+}
+
+/*###############User################*/
+
+
+.avatar {
+    float: left;
+    height: 60px;
+    
+    width: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color:  #D6E9FE;
+}
+
+.username {
+   margin-top: 30px;
+}
+
+.comment {
+    
+    margin: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
